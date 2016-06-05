@@ -1,0 +1,28 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="App11.MainPage"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,-270,0">
+
+        <maps:MapControl x:ConnectionId='1' Name ="MyMap" HorizontalAlignment="Left" Margin="393,10,0,0" VerticalAlignment="Top" MapServiceToken="p6Yfnfcf8xjf9y1rypAK~DkqoDFQ4lXt4cUogD0LrrA~Alo_IAlcdnHGwQsKgQMW_uiYML6nU9M4i0LgNfrMnId4A-JR9Ii5jrBUibJH0s9N" Height="700" Width="1147"/>
+        <Button x:ConnectionId='2' x:Name="Button" Content="Контрольные точки" HorizontalAlignment="Left" Margin="214,495,0,0" VerticalAlignment="Top" Height="32" Width="156"                     />
+        <Button x:ConnectionId='3' x:Name="button" Content="Анализ данных" HorizontalAlignment="Left" Margin="214,563,0,0" VerticalAlignment="Top" Width="156"                        Height="32"/>
+        <ListBox x:ConnectionId='4' x:Name="listBox" HorizontalAlignment="Left" Height="100" Margin="10,495,0,0" VerticalAlignment="Top" Width="192"/>
+        <TextBox x:ConnectionId='5' x:Name="textBox" HorizontalAlignment="Left" Margin="10,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="360"/>
+        <TextBox x:ConnectionId='6' x:Name="textBox1" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="360"/>
+        <TextBox x:ConnectionId='7' x:Name="textBox2" HorizontalAlignment="Left" Margin="10,241,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="360"/>
+        <TextBox x:ConnectionId='8' x:Name="textBox3" HorizontalAlignment="Left" Margin="10,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="360"/>
+        <TextBox x:ConnectionId='9' x:Name="textBox4" HorizontalAlignment="Left" Margin="10,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="360"/>
+        <TextBox x:ConnectionId='10' x:Name="textBox5" HorizontalAlignment="Left" Margin="10,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="60" Width="360"/>
+        <TextBlock x:ConnectionId='11' x:Name="textBlock" HorizontalAlignment="Left" Margin="10,466,0,0" TextWrapping="Wrap" Text="Идентификатор устройства" VerticalAlignment="Top" Width="192" Height="42"                                              />
+        <Button x:ConnectionId='12' x:Name="button1" Content="Очистить карту" HorizontalAlignment="Left" Margin="214,620,0,0" VerticalAlignment="Top" Width="156"                      />
+        <CalendarDatePicker x:ConnectionId='13' x:Name="Calendar" HorizontalAlignment="Left" Margin="10,620,0,0" VerticalAlignment="Top" Height="90" Width="192"/>
+
+    </Grid>
+</Page>
+
